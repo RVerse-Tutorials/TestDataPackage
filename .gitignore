@@ -1,0 +1,15 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+inst/doc
+*.Rproj
+MyNewPackage.Rcheck/
+MyNewPackage*.tar.gz
+MyNewPackage*.tgz
+MyDataPackage.Rcheck/
+MyDataPackage*.tar.gz
+MyDataPackage*.tgz
+ToyDataPackage.Rcheck/
+ToyDataPackage*.tar.gz
+ToyDataPackage*.tgz

@@ -1,0 +1,24 @@
+---
+title: "testVignette"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{testVignette}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+# Introduction
+
+This report uses data version `r packageVersion("ToyDataPackage")`. We can automatically get the data package version using `packageVersion("ToyDataPackage")`.
+
+```{r setup, include=FALSE}
+library(ToyDataPackage)
+```
+
+```{r fig.cap=paste("This figure uses ToyDataPackage version", packageVersion("ToyDataPackage"))}
+plot(WWW2)
+```
+
+```{r fig.cap=paste("This figure uses ToyDataPackage version", packageVersion("ToyDataPackage")), message=FALSE}
+littleforecast(WWW2)
+```

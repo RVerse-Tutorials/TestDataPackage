@@ -1,0 +1,15 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^_pkgdown\.yml$
+^docs$
+^pkgdown$
+^\.github$
+^MyNewPackage\.Rcheck$
+^MyNewPackage.*\.tar\.gz$
+^MyNewPackage.*\.tgz$
+^MyDataPackage\.Rcheck$
+^MyDataPackage.*\.tar\.gz$
+^MyDataPackage.*\.tgz$
+^ToyDataPackage\.Rcheck$
+^ToyDataPackage.*\.tar\.gz$
+^ToyDataPackage.*\.tgz$
